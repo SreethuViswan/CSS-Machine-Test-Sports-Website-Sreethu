@@ -1,0 +1,91 @@
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:aquamarine;
+    position: relative;
+   
+}
+
+
+.links{
+/* list-style-type: none; */
+display: flex;
+flex-wrap: wrap;
+
+
+}
+.links li{
+margin-right: 50px;
+list-style-type: none;
+}
+.links a{
+text-decoration: none;
+font-size: 17px;
+font-weight: bold;
+}
+#home{
+color:green ;
+}
+#sport{
+    color:red;
+    }
+
+#shoo{
+color:red;
+}
+#cloth{
+color:blue;
+}
+
+#about{
+    color:brown ; 
+}
+.container{
+    background-color: white;
+    
+}  
+
+#buy{
+    background-color:blue;
+ text-align: center;
+ color:white;
+ font-size: 35px;
+ padding-top: 30px;
+ padding-bottom: 30px;
+
+ }
+.para{
+    width:50%;
+    color:white;
+    padding-top: 25px;
+    padding-left: 100px;
+
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.inside{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0px;
+    background-color: black
+}
+
+.pics{
+    background-color:black ;
+    display: flex;
+    gap: 1px;
+  
+    justify-content:space-around ;
+   
+}
+
+#footer{
+    background-color:aquamarine;
+}
+#footer div{
+text-align: center;
+margin-top: 30px;
+padding-top: 60px;
+}

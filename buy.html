@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container
+        {
+            background-color:aquamarine;
+            color:black;
+            padding-left: 200px;
+            padding-top: 10px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <h3>Payment form</h3>
+            <h3>* These fields are required</h3>
+           <label for="fname"> First Name:*</label>
+           <input type="text" width="50%" name="fname" required placeholder="First name" id="fname">
+           <br>
+            Last Name:*<input type="text" name="lname" required placeholder="Last name"> 
+            <br>
+            Email:<input type="email" name="mail">
+            <br>
+            Male:<input type="radio" name="Gender" value="Male">
+            Female:<input type="radio" name="Gender" value="Female">
+            <br>
+            Address:<textarea name="addrs" id="addrss" cols="30" rows="10"></textarea>
+            <br>
+            Pincode:<input type="number" name="pin">
+            <br>
+            CardType:
+            <select name="CardType" id="CardType" multiple> 
+                <option value="Visa_card">Visa card</option>
+                <option value="SBI">SBI</option>
+                <option value="FDI">FDI</option>
+                <option value="IOB">IOB</option>
+            </select>
+            <br>
+            CardNumber:<input type="number" name="cardno" >
+            <br>
+            Expirydate:<input type="date" name="expdate" >
+    
+          <br>
+          CVV Number:<input type="password" name="cvvnum">
+          <br>
+        
+          <br>
+         
+          
+        
+          
+          
+          
+          <input type="reset" name="reset" value="reset">
+          <br>
+         
+        
+          <input type="submit" value="Pay Now">
+          
+    
+        
+    
+         
+      </form>
+    </div>
+    
+    
+            
+</body>
+</html>
